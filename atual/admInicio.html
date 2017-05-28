@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Body Training</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+	<link rel="stylesheet" type="text/css" href="formularios.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand">Body Training</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="aposLoginAdm.html">Home <span class="glyphicon glyphicon-home"> </a></li>
+		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Atividades <span class="glyphicon glyphicon-tasks"><span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a href="formularioAtividades.html">Cadastrar <span class="glyphicon glyphicon-pencil"></a></li>
+			  <li><a href="#">Pesquisar <span class="glyphicon glyphicon-search"></a></li>
+			</ul>
+		  </li>
+		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Clientes <span class="glyphicon glyphicon-user"><span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a href="formularioClientes.html">Cadastrar <span class="glyphicon glyphicon-pencil"></a></li>
+			  <li><a href="#">Pesquisar <span class="glyphicon glyphicon-search"></a></li>
+			</ul>
+		  </li>
+		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Funcionários <span class="glyphicon glyphicon-user"><span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a href="formFuncionarios.html">Cadastrar <span class="glyphicon glyphicon-pencil"></a></li>
+			  <li><a href="#">Pesquisar  <span class="glyphicon glyphicon-search"></a></li>
+			</ul>
+		  </li></ul>
+	  <ul class="nav navbar-nav navbar-right">
+        <li><a href="Inicio.html"> Sair <span class="glyphicon glyphicon-log-in"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br/><br/>
+<div class="w3-container w3-teal">
+  <br/><center><h3>Body Training</h3></center>
+  <center><p class="w3-serif">O sistema que faltava em sua academia</p></center>
+</div>
+<div class="container">
+<!--Aqui dentro vai colocar o php para chamar os formularios e as outras páginas que tem no menu-->
+	
+</div>
+<footer>
+        <p>© 2017<a style="color:#0a93a6; text-decoration:none;" href="#"> Body Training</a>, All rights reserved 2017.</p>
+</footer>
+
+<script>
+$(document).ready(function(e) {
+ $('#menu-topo').hide();
+   var menuaberto = false;
+  $('.btn-collapse').click(function(event) {
+    event.preventDefault();
+    $('#menu-topo').toggle('');
+      if(menuaberto == true){
+        menuaberto = false;
+        $(".lista-collapse:nth-child(1)").removeClass('botao-lista-cima');
+        $(".lista-collapse:nth-child(2)").removeClass('hidden');
+        $(".lista-collapse:nth-child(3)").removeClass('botao-lista-baixo');
+      }else {
+        menuaberto = true;
+        $(".lista-collapse:nth-child(1)").addClass('botao-lista-cima');
+         $(".lista-collapse:nth-child(2)").addClass('hidden');
+        $(".lista-collapse:nth-child(3)").addClass('botao-lista-baixo');
+      }
+  });
+ });
+
+</script>
+</body>
+</html>

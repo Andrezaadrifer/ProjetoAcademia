@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Body Training</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+	.mySlides {display:none}s
+	.w3-left, .w3-right, .w3-badge {cursor:pointer}
+	.w3-badge {height:10px;width:10px;padding:0}
+	</style>
+  
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="Inicio.html">Body Training</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="Inicio.html">Home <span class="glyphicon glyphicon-home"> </a></li>
+		<li><a href="#sobre">Sobre <span class="glyphicon glyphicon-cog"></span></a></li>
+		<li><a href="#faleconosco">Fale Conosco <span class="glyphicon glyphicon-comment"></span></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="aqui" data-toggle="modal" data-target="#myModal"> Login <span class="glyphicon glyphicon-log-in" data-toggle="modal" data-target="#myModal"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br/>
+<div class="w3-content w3-display-container" style="max-width:2000px">
+  <img class="mySlides" src="img/8.png" style="width:100%">
+  <img class="mySlides" src="img/2.png" style="width:100%">
+  <img class="mySlides" src="img/3.png" style="width:100%">
+  <img class="mySlides" src="img/4.png" style="width:100%">
+  <img class="mySlides" src="img/5.png" style="width:100%">
+  <img class="mySlides" src="img/6.png" style="width:100%">
+  <img class="mySlides" src="img/7.png" style="width:100%">
+  <img class="mySlides" src="img/1.png" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+  </div>
+</div>
+  
+<div class="w3-container w3-teal">
+  <br/><center><h3>Body Training</h3></center>
+  <center><p class="w3-serif">O sistema que faltava em sua academia</p></center>
+</div>
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <center><h3>Fácil</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <img src="http://fakeimg.pl/300x300/" class="img-responsive">
+	</div>
+	<br/>
+    <div class="col-sm-4">
+      <center><h3>Rápido</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <img src="http://fakeimg.pl/300x300/" class="img-responsive">
+	</div>
+	<br/>
+    <div class="col-sm-4">
+      <center><h3>Dentro do seu Orçamento</h3>       
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <img src="http://fakeimg.pl/300x300/" class="img-responsive">
+	</div>
+	
+  </div>
+</div>
+
+</br></br></br>
+
+<div class="w3-container w3-teal">
+	 <br/><legend><Center id="sobre"><h3>Sobre o Sistema</h3></Center></legend>
+ </div><div></div><br/>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+ 
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+ 
+</div>
+
+</br></br></br></br>
+<div class="container" > 
+	<form class="form-horizontal">
+
+<fieldset>
+
+<!-- Form Name -->
+<legend class="w3-container w3-teal" id="faleconosco">Fale Conosco</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Seu Email">Seu Email</label>  
+  <div class="col-md-8">
+  <input id="Seu Email" name="Seu Email" placeholder="Digite corretamente seu email" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Seu Nome</label>  
+  <div class="col-md-8">
+  <input id="textinput" name="textinput" placeholder="Digite seu nome completo" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Assunto</label>  
+  <div class="col-md-8">
+  <input id="textinput" name="textinput" placeholder="Digite o assunto" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Mensagem</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea"></textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Enviar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+
+<br/><br/><br/>
+<footer>
+        <p>© 2017<a style="color:#0a93a6; text-decoration:none;" href="#"> Body Training</a>, All rights reserved 2017.</p>
+</footer>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" action="check_login.php" method="post">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h4 class="modal-title" id="myModalLabel">Login</h4>
+			</div> <!-- /.modal-header -->
+			
+			<div class="modal-body">
+				<form role="form">
+					<div class="form-group">
+						<div class="input-group">
+							<input type="text" class="form-control" id="uLogin" placeholder="Login">
+							<label for="uLogin" class="input-group-addon glyphicon glyphicon-user"></label>
+						</div>
+					</div> <!-- /.form-group -->
+
+					<div class="form-group">
+						<div class="input-group">
+							<input type="password" class="form-control" id="uPassword" placeholder="Password">
+							<label for="uPassword" class="input-group-addon glyphicon glyphicon-lock"></label>
+						</div> <!-- /.input-group -->
+					</div> <!-- /.form-group -->
+
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> Lembrar
+						</label>
+					</div> <!-- /.checkbox -->
+				</form>
+
+			</div> <!-- /.modal-body -->
+
+			<div class="modal-footer">
+				<a href ="admInicio.html"><button class="form-control btn btn-primary" >Entrar</button></a>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">
+						<span class="sr-only">progress</span>
+					</div>
+				</div></a>
+			</div> <!-- /.modal-footer -->
+
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+$(document).ready(function(){
+    $('.modal-footer button').click(function(){
+		var button = $(this);
+
+		if ( button.attr("data-dismiss") != "modal" ){
+			var inputs = $('form input');
+			var title = $('.modal-title');
+			var progress = $('.progress');
+			var progressBar = $('.progress-bar');
+
+			inputs.attr("disabled", "disabled");
+
+			button.hide();
+
+			progress.show();
+
+			progressBar.animate({width : "100%"}, 100);
+
+			progress.delay(1000)
+					.fadeOut(600);
+
+			button.text("Fechar")
+					.removeClass("btn-primary")
+					.addClass("btn-success")
+    				.blur()
+					.delay(1600)
+					.fadeIn(function(){
+						title.text("Você conseguiu logar");
+						button.attr("data-dismiss", "modal");
+					});
+		}
+	});
+
+	$('#myModal').on('hidden.bs.modal', function (e) {
+		var inputs = $('form input');
+		var title = $('.modal-title');
+		var progressBar = $('.progress-bar');
+		var button = $('.modal-footer button');
+
+		inputs.removeAttr("disabled");
+
+		title.text("Entrar");
+
+		progressBar.css({ "width" : "0%" });
+
+		button.removeClass("btn-success")
+				.addClass("btn-primary")
+				.text("Entrar")
+				.removeAttr("data-dismiss");
+                
+	});
+});
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+	for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+	for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+	}
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+	dots[myIndex-1].className += " w3-white";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+	
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+
+ $(document).ready(function(e) {
+ $('#menu-topo').hide();
+   var menuaberto = false;
+  $('.btn-collapse').click(function(event) {
+    event.preventDefault();
+    $('#menu-topo').toggle('');
+      if(menuaberto == true){
+        menuaberto = false;
+        $(".lista-collapse:nth-child(1)").removeClass('botao-lista-cima');
+        $(".lista-collapse:nth-child(2)").removeClass('hidden');
+        $(".lista-collapse:nth-child(3)").removeClass('botao-lista-baixo');
+      }else {
+        menuaberto = true;
+        $(".lista-collapse:nth-child(1)").addClass('botao-lista-cima');
+         $(".lista-collapse:nth-child(2)").addClass('hidden');
+        $(".lista-collapse:nth-child(3)").addClass('botao-lista-baixo');
+      }
+  });
+ });
+</script>
+</body>
+</html>
